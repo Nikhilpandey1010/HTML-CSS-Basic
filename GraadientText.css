@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(15,15,15);
+}
+
+h1 {
+    background: linear-gradient(
+        to right,
+        rgb(250,78,10),
+        rgb(247,12,204),
+        rgb(48,248,255),
+        rgb(0, 106, 255)
+    ) ;
+    background-clip: text;
+    color: transparent;
+    font-family: poppins;
+    font-size: 5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.10);
+}
+

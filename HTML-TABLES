@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width, initial-scale=1.0">
+    <title>Tables</title>
+<style>
+    #image{
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .table-1, .table-2 {
+        width: 33.34%;
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding:5px;
+    }
+    table,td, tr {
+        border: 1px solid black;
+        padding:5px;
+        border-collapse:collapse;
+    }
+    
+    td { 
+        padding-top: 22px;
+        text-align: center;
+    }
+ 
+</style>
+</head>
+<body>
+    <h2 style="text-align: center;font-size: 50px;text-decoration: underline;">Table for reference!</h2>
+    <img src="resources/Table.png" alt="this is an image!" id="image">
+    <b><hr style="margin-top: 100px;font-weight:bolder;"></b>
+    <br>
+    <div class="table-1">
+        <table>
+            <tr>
+                <td style="height:min-content;">EMIL</td>
+                <td style="height:min-content;">TOBIAS</td>
+                <td style="height:min-content;">LINUS</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table-2">
+        <table id="table-2">
+            <tr>
+                <td>text</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

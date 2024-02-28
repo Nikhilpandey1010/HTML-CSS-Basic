@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    border: 2px solid #B7C9F2;
+    padding: 23px;
+    border-radius: 10px;
+    background-color: #B7C9F2;
+    margin: 12px;
+    width: 75em;
+    height: 8em;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    margin-bottom: -30px;
+    border: 12px solid transparent; 
+}
+
+p {
+    margin-left:150px;
+    padding-top:27px;
+}
+
+.img1, .img3 {
+    margin-top: -72px;
+    margin-bottom: auto;
+}
+
+.img2, .img4 {
+    margin-top: -72px;
+    margin-bottom: auto;
+    padding-right: -50px;
+}
+
+.img1, .img3 {
+    float: left;
+}
+
+.img2, .img4 {
+    float: right;
+}
